@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação da Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Classificação da Idade da Turma</h1>
+    </header>
+    <main>
+        <div class="container">
+            <input type="number" id="numPessoas" placeholder="Quantas pessoas vão informar a idade?" required>
+            <button onclick="solicitarIdades()">Iniciar</button>
+
+            <div id="idadeInputs" style="display: none;">
+                <p>Digite a idade de cada pessoa:</p>
+            </div>
+
+            <p id="resultado"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
